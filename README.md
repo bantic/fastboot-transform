@@ -10,9 +10,9 @@ window.foo = bar;
 The above file is not compatible in FastBoot. Therefore, you will need to wrap it with:
 
 ```js
-var fastboot-transform = require('fastboot-transform');
+var fastbootTransform = require('fastboot-transform');
 
-fastboot-transform(new Funnel('a/b/c.js'));
+fastbootTransform(new Funnel('a/b/c.js'));
 ```
 
 The result of the above is:
